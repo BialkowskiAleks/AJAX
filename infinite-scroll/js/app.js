@@ -95,13 +95,14 @@ const scrollToEndOfPage = () => {
 
         endOfThePage += 1;
         console.log('Scrolled to the end of page');
+        
+        showPreLoader();
+
+
+        getData();
 
     }
 
-    showPreLoader();
-
-
-    getData();
 }
 
 
